@@ -66,7 +66,7 @@
 
 The operating system for AI-native agencies and service firms. Deploy autonomous agents that handle content, sales, support and client ops — fewer hires. AgentsBooks is the operating system for AI-native agencies and service companies. Founded 2024. Built by Spring Software in Tel Aviv. Our platform enables AI-driven automation across marketing, sales, client operations, and support, delivering a unified solution for modern service firms.
 
-**Areas:** AI · Agency · SaaS · Automation · Platform · Company
+**Areas:** Artificial Intelligence · Agency · Software-as-a-Service · Automation · Platform · Company
 
 ## AgentsBooks on APIs.io
 
@@ -87,11 +87,17 @@ Everything profiled for AgentsBooks is published on APIs.io rather than in this 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentsbooks-com-mcp.yml](https://apis.io/servers/agentsbooks-com/agentsbooks-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentsbooks Com Agentic Access](https://apis.io/agentic-access/agentsbooks-com/agentsbooks-com-agentic-access/)
+- [AgentsBooks Agentic Access](https://apis.io/agentic-access/agentsbooks-com/agentsbooks-com-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -120,16 +126,16 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentsbooks Com Authentication](https://apis.io/security/agentsbooks-com/agentsbooks-com-authentication/)
-- [Agentsbooks Com Domain Security](https://apis.io/security/agentsbooks-com/agentsbooks-com-domain-security/)
-- [Agentsbooks Com Trust Center](https://apis.io/security/agentsbooks-com/agentsbooks-com-trust-center/)
-- [Agentsbooks Com Vulnerability Disclosure](https://apis.io/security/agentsbooks-com/agentsbooks-com-vulnerability-disclosure/)
+- [AgentsBooks Authentication](https://apis.io/security/agentsbooks-com/agentsbooks-com-authentication/)
+- [AgentsBooks Domain Security](https://apis.io/security/agentsbooks-com/agentsbooks-com-domain-security/)
+- [AgentsBooks Trust Center](https://apis.io/security/agentsbooks-com/agentsbooks-com-trust-center/)
+- [AgentsBooks Vulnerability Disclosure](https://apis.io/security/agentsbooks-com/agentsbooks-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentsbooks Com Plans Pricing](https://apis.io/plans/agentsbooks-com/agentsbooks-com-plans-pricing/)
+- [AgentsBooks Plans Pricing](https://apis.io/plans/agentsbooks-com/agentsbooks-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -152,33 +158,33 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 66.8** — exemplar · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 64.9** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 54.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 52.6 |
+| Discoverability | 81.7 |
+| Contract quality | 58.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 52.4 |
 | Developer ergonomics | 49.3 |
-| Access clarity | 88.9 |
+| Access clarity | 93.6 |
 
-**Agent readiness 52.6** — agent-ready (gated down from agent-native)
+**Agent readiness 49.5** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
@@ -189,6 +195,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
 
